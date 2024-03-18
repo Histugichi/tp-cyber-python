@@ -1,0 +1,19 @@
+def est_premier(nombre):
+    if nombre <= 1:
+        return False
+    elif nombre <= 3:
+        return True
+    elif nombre % 2 == 0 or nombre % 3 == 0:
+        return False
+    i = 5
+    while i * i <= nombre:
+        if nombre % i == 0 or nombre % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+
+entier = 60
+if est_premier(entier):
+    print(entier, "nombre premier")
+else:
+    print(entier, "n'est pas un nombre premier")

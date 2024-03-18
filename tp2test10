@@ -1,0 +1,17 @@
+def est_premier(n):
+    if n <= 1:
+        return False  
+    elif n <= 3:
+        return True   
+    else:
+        i = 2
+        while i * i <= n:
+            if n % i == 0:
+                return False  # s'il ne se divise pas par i, il n'est pas premier
+            i += 1
+        return True  # aucun nombre divise i,il est premier
+nombre = int(input("Entrez un entier pour vérifier s'il est premier : "))
+if est_premier(nombre):
+    print(nombre, "est un nombre premier.")
+else:
+    print(nombre, "n'est pas un nombre premier.")

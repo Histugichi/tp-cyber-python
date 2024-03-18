@@ -1,0 +1,11 @@
+# l'utilisateur son âge
+age = int(input("Quel est votre age ? "))
+
+# l'âge est inférieur à 0
+if age < 0:
+    print("Erreur : lage ne peut pas etre negatif.")
+# l'âge est supérieur ou égal à 18
+elif age >= 18:
+    print("Vous etes majeur.")
+else:
+    print("Vous etes mineur.")

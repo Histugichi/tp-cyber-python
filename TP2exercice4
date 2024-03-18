@@ -1,0 +1,9 @@
+def pgcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+a = 462
+b = 190
+resultat = pgcd(a, b)
+print("Le PGCD de", a, "et", b, "est", resultat)

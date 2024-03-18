@@ -1,0 +1,18 @@
+# les entiers de 1 à 5
+nombres = list(range(1, 6))
+
+#entiers de 6 à 10 à la fin de la liste
+nombres += list(range(6, 11))
+
+# Affichage de la longueur de la liste
+print("Longueur de la liste :", len(nombres))
+
+# Suppression du nombre 3 de la liste
+if 3 in nombres:
+ nombres.remove(3)
+
+#l'ordre décroissant
+nombres.sort(reverse=True)
+
+# Résultat
+print("Liste résultante triée dans l'ordre décroissant :", nombres)

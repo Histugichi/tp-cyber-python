@@ -1,0 +1,8 @@
+def est_pair(nombre):
+    return nombre % 2 == 0
+
+entier = 25
+if est_pair(entier):
+    print(entier, "pair")
+else:
+    print(entier, "impair")

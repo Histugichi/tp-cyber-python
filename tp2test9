@@ -1,0 +1,14 @@
+def tri_croissant(liste):
+    taille = len(liste)
+    i = 0
+    while i < taille:
+        j = i + 1
+        while j < taille:
+            if liste[i] > liste[j]:
+                liste[i], liste[j] = liste[j], liste[i]
+            j += 1
+        i += 1
+    return liste
+ma_liste = [-15, 6, 80, 102, 301]
+liste_triee = tri_croissant(ma_liste)
+print("ordre croissant:", liste_triee)

@@ -1,0 +1,9 @@
+def moyenne(liste_nombres):
+    if not liste_nombres:
+        return 0
+    else:
+        return sum(liste_nombres) / len(liste_nombres)
+
+liste = [12, 16, 18, 100]
+resultat = moyenne(liste)
+print("La moyenne de la liste", liste, "est", resultat)

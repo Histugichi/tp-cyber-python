@@ -1,0 +1,9 @@
+def factorielle(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorielle(n - 1)
+
+entier = 50
+resultat = factorielle(entier)
+print("La factorielle de", entier, "est", resultat)

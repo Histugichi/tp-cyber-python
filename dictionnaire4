@@ -1,0 +1,13 @@
+#des étudiants
+etudiants = [ 
+    {"nom": "Max", "note": 7},
+    {"nom": "jojo", "note": 12},
+    {"nom": "seb", "note": 2},
+    {"nom": "Pierre", "note": 15},
+    {"nom": "Martin", "note": 11}]
+
+# noms des étudiants note supérieure ou égale à 10
+print("Noms des étudiants ayant obtenu une note supérieure ou égale à 10 :")
+for etudiant in etudiants:
+    if etudiant["note"] >= 10:
+        print(etudiant["nom"])

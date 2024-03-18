@@ -1,0 +1,28 @@
+# jours de la semaine
+jours_semaine = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+
+# jours de la semaine
+print("Jours de la semaine :")
+for jour in jours_semaine:
+    print(jour)
+
+# mois de l'annee
+mois_annee = ("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre")
+
+# mois de l'année 
+print("\nMois de l'annee :")
+index_mois = 0
+while index_mois < len(mois_annee):
+    print(mois_annee[index_mois])
+    index_mois += 1
+
+# capitales des pays
+capitales = {"Suisse": "Norvege", "Allemagne": "Rome", "Cuba": "France", "Italie": "Guatemala"}
+
+# nouvelle entree 
+capitales["Colombie"] = "Midellin"
+
+#dictionnaire 
+print("\nCapitales des pays :")
+for pays, capitale in capitales.items():
+    print(f"{pays} : {capitale}")

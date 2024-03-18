@@ -1,0 +1,19 @@
+#listes de noms et d'âges
+noms = ["Mick", "Max", "steph"]
+ages = [27, 32, 37]
+
+#personnes en associant chaque nom à son âge
+personnes = dict(zip(noms, ages))
+
+#dictionnaire personnes
+print("Dictionnaire personnes avant l'ajout :", personnes)
+
+# Saisie utilisateur 
+nouveau_nom = input("Entrez le nom de la nouvelle personne : ")
+nouvel_age = int(input("Entrez l'âge de la nouvelle personne : "))
+
+#nouvelle personne
+personnes[nouveau_nom] = nouvel_age
+
+#dictionnaire personnes après l'ajout
+print("Dictionnaire personnes après l'ajout :", personnes)

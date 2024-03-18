@@ -1,0 +1,7 @@
+def somme(a, b):
+    return a + b
+
+nombre1 = 30
+nombre2 = 100
+resultat = somme(nombre1, nombre2)
+print("La somme de", nombre1, "et", nombre2, "est égale à", resultat)

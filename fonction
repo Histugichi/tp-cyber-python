@@ -1,0 +1,21 @@
+def calculer_moyenne(liste_nombres):
+    """
+    Calcule la moyenne des nombres dans une liste.
+    
+    Args:
+        liste_nombres (list): Liste de nombres.
+        
+    Returns:
+        float: La moyenne des nombres.
+    """
+    if len(liste_nombres) == 0:
+        return 0
+    else:
+        return sum(liste_nombres) / len(liste_nombres)
+
+liste_test = [2, 5, 10, 20, 50]
+
+# calculer la moyenne
+moyenne = calculer_moyenne(liste_test)
+
+print("La moyenne des nombres dans la liste est :", moyenne)

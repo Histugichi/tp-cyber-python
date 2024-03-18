@@ -1,0 +1,6 @@
+def tri_croissant(liste):
+    return sorted(liste)
+
+liste = [25, 20, 84, 100, 92]
+resultat = tri_croissant(liste)
+print("ordre croissant:", resultat)

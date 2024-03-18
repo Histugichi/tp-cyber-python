@@ -1,0 +1,7 @@
+def produit(a, b):
+    return a * b
+
+nombre1 = 25
+nombre2 = 12
+resultat = produit(nombre1, nombre2)
+print("Le produit de", nombre1, "et", nombre2, "est égal à", resultat)

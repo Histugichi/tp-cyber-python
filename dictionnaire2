@@ -1,0 +1,21 @@
+#dictionnaire personne
+personne = {
+    "nom": "Max",
+    "âge": 32,
+    "ville": "Beauce"
+}
+
+#la valeur "âge"
+print("Âge de la personne :", personne["âge"])
+
+# "ville" pour "Paris"
+personne["ville"] = "Paris"
+
+# le sexe de la personne
+personne["sexe"] = "non spécifié"
+
+# Suppression de la clé "ville" du dictionnaire
+del personne["ville"]
+
+# résultat
+print("Dictionnaire résultat :", personne)

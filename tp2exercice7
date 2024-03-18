@@ -1,0 +1,9 @@
+def est_present(liste, valeur):
+    return valeur in liste
+
+liste = [4, 8, 12, 16]
+valeur = 16
+if est_present(liste, valeur):
+    print(valeur,"est dans la liste")
+else:
+    print(valeur,"n'est pas dans la liste")

@@ -1,0 +1,5 @@
+#la liste des carrés
+carrés = [x ** 2 for x in range(1, 11)]
+
+# Affichage de la liste des carrés
+print("Liste des carrés des nombres de 1 à 10 :", carrés)

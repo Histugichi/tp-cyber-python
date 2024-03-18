@@ -1,0 +1,7 @@
+def convertir_en_celsius(temp_fahrenheit):
+    temp_celsius = (temp_fahrenheit - 32) * 5/9
+    return temp_celsius
+
+temp_fahrenheit = 82
+temp_celsius = convertir_en_celsius(temp_fahrenheit)
+print(temp_fahrenheit, "degrés Fahrenheit équivalent à", temp_celsius, "degrés Celsius")
